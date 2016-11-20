@@ -1,0 +1,61 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* CUSTOM STYLES */
+.alert {
+    margin-top: 40px;
+    border-radius: 0;
+    border-color: #808080;
+    color: #1a1919;
+
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(133,133,133,1);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(133,133,133,1);
+    box-shadow: 2px 2px 10px 0px rgba(133,133,133,1);
+}
+
+.alert-success {
+    
+    
+
+}
+
+input {
+  /*outline: 1px solid bl;
+  border: none !important;*/
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.input-validation-error {
+    /*outline: none;*/
+    /*border: none !important;*/
+    border: 1px solid #f00;
+    background-color: #fee;
+    padding: 1px;
+}
+

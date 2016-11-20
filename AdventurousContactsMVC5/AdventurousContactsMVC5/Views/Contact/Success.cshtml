@@ -1,0 +1,14 @@
+﻿@model AdventurousContactsMVC5.Models.Contact
+
+@{
+    ViewBag.Title = "Success";
+}
+
+<h2>Success</h2>
+<div>
+    <p><strong>@Model.FirstName @Model.LastName (@Model.EmailAddress)</strong> @TempData["success"]</p>
+</div>
+
+
+@Html.ActionLink("Back to List", "Index")
+

@@ -1,0 +1,12 @@
+﻿@model AdventurousContactsMVC5.Models.Contact
+
+@{
+    ViewBag.Title = "Add contact";
+}
+
+<h2>Add contact</h2>
+@Html.Partial("_FlashMessage")
+@Html.Partial("_ContactForm")
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
